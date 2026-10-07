@@ -1,0 +1,27 @@
+semente: 1
+aleatorios: 100000
+primeira_chegada: 2.0
+chegadas: [2.0, 4.0]
+filas:
+  - nome: Fila 1
+    servidores: 1
+    capacidade: null
+    servico: [1.0, 2.0]
+    rotas:
+      - {destino: 1, p: 0.2}
+      - {destino: 2, p: 0.8}
+  - nome: Fila 2
+    servidores: 2
+    capacidade: 5
+    servico: [4.0, 6.0]
+    rotas:
+      - {destino: 0, p: 0.3}
+      - {destino: -1, p: 0.2}
+      - {destino: 2, p: 0.5}
+  - nome: Fila 3
+    servidores: 2
+    capacidade: 10
+    servico: [5.0, 15.0]
+    rotas:
+      - {destino: 0, p: 0.7}
+      - {destino: -1, p: 0.3}
